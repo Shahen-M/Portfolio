@@ -1,0 +1,53 @@
+main {
+  height: 100vh;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+
+.container-fluid {
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  padding: 0 !important;
+}
+
+h1, h2 {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  animation: fadeIn 1s;
+  display: none;
+  color: #fff;
+}
+
+h1 {
+  bottom: -50px;
+}
+
+h2 {
+  bottom: -70px;
+}
+
+.border_line {
+  max-width: 80vw !important;
+  width: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  animation: fadeIn 2s;
+  display: none;
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
