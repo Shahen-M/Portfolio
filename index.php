@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shahen | Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+  </head>
+  <body>
+
+    <header>
+      <figure>
+        <img id="menu"src="images/menu.png" alt="menu">
+      </figure>
+
+      <nav id="nav">
+        <ul class="justify-content-end">
+          <a href="#"><li>Home</li></a>
+          <a href="#my_picture"><li>About</li></a>
+          <a href="#project_header"><li>Projects</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="overlay">
+          <div class="container-fluid">
+            <div class="col-6 mx-auto border border-dark border_line"></div>
+            <h1> Shahen Matevosyan </h1>
+            <h2> Welcome to my Portfolio </h2>
+          </div>
+        </div>
+    </main>
+
+    <div class="container">
+      <row class="about_me_container">
+        <figure>
+          <img id="my_picture" src="images/img_of_me.png" alt="my picture">
+        </figure>
+
+        <h3 id="about_header"> About Me </h3>
+
+        <p> My name is Shahen Matevosyan. I am working towards becoming a front-end web developer. I've been learning front-end development for two years and my goal is become a full stack web developer. </p>
+      </row>
+
+      <div class="row skill_container">
+        <div class="col-md-6 left_content content">
+          <figure>
+            <img src="images/skills_img.png" alt="tools">
+          </figure>
+
+          <p> My Skills </p>
+          <p> Listed below are frameworks and skills that I have learned. I have been studying these skills for about two years. </p>
+
+          <ul>
+            <li> BootStrap </li>
+            <li> WordPress </li>
+            <li> Responsive </li>
+            <li> Adobe XD CC </li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 right_content content">
+          <figure>
+            <img src="images/code.png" alt="computer">
+          </figure>
+
+          <p> Language </p>
+          <p> These are the programming language I have learned throughout my two years of programming. </p>
+
+          <ul>
+            <li> HTML </li>
+            <li> CSS </li>
+            <li> JavaScript </li>
+            <li> jQuery </li>
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="row project_container pb-4">
+        <div class="col-lg-12">
+          <h3 id="project_header" class="mb-4"> Projects </h3>
+        </div>
+
+        <div class="row pb-4 w-100 mx-auto">
+          <div class="col-lg-12 top_project">
+            <figure class="figure">
+              <img src="images/mockup_img1.png" class="figure-img img-fluid" alt="image of my website">
+              <p class="lead">Workout Blog</p>
+              <figcaption class="figure-caption w-75">This is website is a blog that gives you tips and guidance on dieting and exercise.</figcaption>
+              <a href="http://smatevosyan.info/blog"><button class="btn btn-outline-secondary mt-4" type="button"> VIEW </button></a>
+            </figure>
+          </div>
+        </div>
+
+        <div class="col-lg-12 border-bottom border-secondary mx-auto"></div>
+
+        <div class="row pt-4 w-100 mx-auto">
+          <div class="col-lg-12 middle_project">
+            <figure class="figure">
+              <img src="images/mockup_img2.png" class="figure-img img-fluid" alt="image of my website">
+              <p class="lead">Online Store</p>
+              <figcaption class="figure-caption">This is a online store that sells all kinds of clothing and accessories.</figcaption>
+              <a href="http://smatevosyan.info/store"><button class="btn btn-outline-secondary mt-4" type="button"> VIEW </button></a>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12 border-bottom border-secondary mx-auto"></div>
+
+      <div class="w-75 mx-auto pt-5 pb-3">
+        <h5 id="contact_header"> Get in touch with me! </h5>
+      </div>
+
+      <form class="contact w-75 mx-auto" action="contactform.php" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" name="name" class="form-control" placeholder="John Doe">
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" name="subject" class="form-control" placeholder="Subject">
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail address:</label>
+          <input type="text" name="mail" class="form-control" placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea type="text" name="message" class="form-control mw-80" rows="3"></textarea>
+        </div>
+
+        <button class="btn btn-outline-secondary d-block mx-auto" type="submit" name="submit"> Send Mail </button>
+      </form>
+    </div> <!-- end of container -->
+
+    <div class="row footer">
+      <div class="col-sm-4 text-center mx-auto pt-5">
+        <a href="https://github.com/Shahen246"><img src="images/github.png" alt="github"></a>
+        <img src="images/linkedin.png" alt="linkedin">
+        <p class="text-white"> Shahen Matevosyan </p>
+      </div>
+    </div>
+<!--https://github.com/Shahen246-->
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
