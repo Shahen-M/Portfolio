@@ -1,0 +1,459 @@
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 40%, 0);
+    transform: translate3d(0, 40%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* about me */
+.about_me_container {
+  margin-top: 30px;
+}
+
+.about_me_container img {
+  display: block;
+  margin: 0 auto;
+  width: 16%;
+  border: 1px solid #000;
+  border-radius: 110px;
+  border-width: 2px;
+  opacity: 0;
+}
+
+.slideIn {
+  animation: slideInUp 1s;
+}
+
+.content ul li {
+  color: #000;
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+  opacity: 0;
+}
+
+.about_me_container p {
+  text-align: center;
+  opacity: 0;
+}
+
+/* SKILLS */
+.skill_container {
+  margin-top: 40px;
+}
+
+.left_content {
+  margin-bottom: 20px;
+}
+
+.content img {
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.content p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.content ul li {
+  text-align: center;
+}
+
+.content {
+  padding: 30px;
+  border-radius: 20px;
+  opacity: 0;
+}
+
+/* PROJECTS */
+.middle_project {
+  opacity: 0;
+}
+
+.top_project {
+  opacity: 0;
+}
+
+.top_project img {
+  float: right;
+}
+
+.top_project p {
+  margin-top: 40px;
+}
+
+.top_project p, .top_project button, .top_project figcaption {
+  float: left;
+}
+
+.top_project figcaption {
+  font-size: 18px;
+}
+
+.middle_project img {
+  float: left;
+}
+
+.middle_project figure {
+  display: block;
+}
+
+.middle_project p {
+  margin-top: 40px;
+}
+
+.middle_project figcaption {
+  font-size: 18px;
+}
+
+.middle_project p, .middle_project button, .middle_project figcaption {
+  float: left;
+}
+
+.middle_project button {
+  margin-top: 20px;
+}
+
+.project_container {
+  margin-top: 40px;
+}
+
+.project_container img {
+  width: 70%;
+}
+
+.description {
+  margin-top: 80px;
+}
+
+.description p {
+  font-size: 18px;
+}
+
+.project_container button {
+  width: 140px;
+  height: 45px;
+  border-radius: 100px;
+  border-style: double;
+}
+
+/** contact **/
+.contact {
+  opacity: 0;
+}
+
+input {
+  border: none;
+}
+
+.text_area_container {
+  width: 58%;
+}
+
+h5 {
+  font-size: 18px !important;
+  opacity: 0;
+}
+
+.contact button {
+  width: 140px;
+  height: 45px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+@media (min-width: 0px) {
+  .content {
+    margin: 30px;
+    border: 1px solid;
+  }
+
+  .left_content {
+
+  }
+
+  .border_line {
+    top: 12vw;
+  }
+
+  .about_me_container img {
+    width: 160px;
+  }
+
+  h1, h2 {
+    font-size: 8vw;
+  }
+
+  .overlay {
+    opacity: .6;
+  }
+
+  h2 {
+    bottom: -60px;
+  }
+
+  .project_container img {
+    width: 90%;
+  }
+
+  .top_project img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .top_project p, .top_project button, .top_project figcaption {
+    float: none;
+    text-align: center;
+  }
+
+  .top_project figcaption {
+    margin: 0 auto;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .top_project button {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .middle_project img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .middle_project p, .middle_project button, .middle_project figcaption {
+    float: none;
+    text-align: center;
+  }
+
+  .middle_project figcaption {
+    margin: 0 auto;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .middle_project button {
+    margin: 0 auto;
+    display: block;
+  }
+
+  header {
+    height: 50px;
+    background: #fff;
+  }
+
+  header figure {
+    display: block;
+    position: relative;
+    margin: 0;
+    height: inherit;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  ul li {
+    text-align: center;
+    padding: 8px;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  header figure img {
+    margin: 5px 0px 5px 10px;
+  }
+
+  nav {
+    display: none;
+    background-color: #3e3d3d;
+    position: absolute;
+    z-index: 30;
+  }
+
+  a {
+    color: #fff;
+  }
+
+
+}
+
+@media (min-width: 400px) {
+  .border_line {
+    top: 50px;
+  }
+}
+
+@media (min-width: 440px) {
+  h1, h2 {
+    font-size: 35px;
+  }
+
+}
+
+
+@media (min-width: 768px) {
+  .content {
+    margin: 0;
+  }
+
+  .left_content {
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .right_content {
+    border-top: 1px solid;
+    border-left: none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .about_me_container img {
+    width: 180px;
+  }
+
+  header {
+    height: 50px;
+  }
+
+  h1, h2 {
+    font-size: 2.5rem;
+  }
+
+  .border_line {
+    top: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    position: absolute;
+    background-color: transparent;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  ul li {
+    text-align: right;
+  }
+
+  nav {
+    display: inline-block !important;
+    background-color: transparent;
+  }
+
+  header figure {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .border_line {
+    top: 68px;
+  }
+
+  .on_scroll_a {
+    color: #000;
+  }
+
+  .about_me_container img {
+    width: 200px;
+  }
+
+   header {
+     height: 0;
+   }
+
+  .middle_project button {
+    margin: 0;
+  }
+
+  .middle_project figcaption, .middle_project p {
+    text-align: left;
+  }
+
+  .middle_project img {
+    float: left;
+    margin: 0;
+  }
+
+  .top_project p {
+    text-align: left;
+  }
+
+  .project_container img {
+    width: 80%;
+  }
+
+  .top_project button {
+    margin: 0;
+
+  }
+
+  .top_project figcaption {
+    margin: 0;
+    text-align: left;
+
+  }
+
+  .top_project img {
+    float: right;
+    display: block;
+    margin: 0;
+  }
+
+
+  h1, h2 {
+    font-size: 3rem;
+  }
+
+  .overlay {
+    opacity: .3;
+  }
+
+  ul li {
+    padding: 20px 40px 0 0;
+    color: #fff;
+  }
+
+}
