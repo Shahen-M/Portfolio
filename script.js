@@ -1,4 +1,3 @@
-
 document.getElementById('menu').addEventListener('click', function() {
   $('nav').slideToggle();
 })
