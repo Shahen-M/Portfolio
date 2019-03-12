@@ -183,7 +183,7 @@ h3 {
 }
 .card {
   width: 200px;
-  height: 243px;
+  height: 230px;
   position: absolute;
   transform-style: preserve-3d;
   transition: all .5s ease-in-out;
