@@ -166,6 +166,10 @@ h3 {
   transform: rotateY(180deg);
 }
 
+.git_projects {
+  height: 275px;
+  margin-top: 80px;
+}
 
 
 
@@ -184,9 +188,10 @@ h3 {
 .card {
   width: 200px;
   height: 230px;
-  position: absolute;
   transform-style: preserve-3d;
   transition: all .5s ease-in-out;
+  display: block;
+  margin: 0 auto;
 }
 .card:hover {
   transform: rotateY(180deg);
