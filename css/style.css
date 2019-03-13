@@ -171,7 +171,9 @@ h3 {
   margin-top: 80px;
 }
 
-
+.git_projects img {
+  height: inherit;
+}
 
 /** contact **/
 .contact {
@@ -180,14 +182,16 @@ h3 {
 
 .image-content {
   cursor: pointer;
-  height: 150px;
-  perspective: 600;
   position: relative;
-  width: 150px;
 }
+
+.card img {
+  height: 300px;
+}
+
 .card {
   width: 200px;
-  height: 230px;
+  height: 300px;
   transform-style: preserve-3d;
   transition: all .5s ease-in-out;
   display: block;
