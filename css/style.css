@@ -162,11 +162,11 @@ h3 {
   border-style: double;
 }
 
-.git_projects {
+.git_project {
   margin-top: 80px;
 }
 
-.git_projects img {
+.git_project img {
   width: 270px;
   height: 300px;
   border-radius: 15px;
@@ -175,7 +175,7 @@ h3 {
   margin: 0 auto;
 }
 
-.git_projects img:hover {
+.git_project img:hover {
   filter: brightness(100%);
 }
 
