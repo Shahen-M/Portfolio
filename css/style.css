@@ -162,17 +162,21 @@ h3 {
   border-style: double;
 }
 
-.login_img:hover {
-  transform: rotateY(180deg);
-}
-
 .git_projects {
-  height: 275px;
   margin-top: 80px;
 }
 
 .git_projects img {
-  height: inherit;
+  width: 270px;
+  height: 300px;
+  border-radius: 15px;
+  filter: brightness(70%);
+  display: block;
+  margin: 0 auto;
+}
+
+.git_projects img:hover {
+  filter: brightness(100%);
 }
 
 /** contact **/
