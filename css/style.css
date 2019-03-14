@@ -163,7 +163,16 @@ h3 {
 }
 
 .git_project {
-  margin-top: 80px;
+  width: 75%;
+  margin: 0 auto !important;
+  padding-top: 50px;
+}
+
+.git_project p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: default;
 }
 
 .git_project img {
@@ -173,6 +182,7 @@ h3 {
   filter: brightness(70%);
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .git_project img:hover {
@@ -182,42 +192,6 @@ h3 {
 /** contact **/
 .contact {
   opacity: 0;
-}
-
-.image-content {
-  cursor: pointer;
-  position: relative;
-}
-
-.card img {
-  height: 300px;
-}
-
-.card {
-  width: 200px;
-  height: 300px;
-  transform-style: preserve-3d;
-  transition: all .5s ease-in-out;
-  display: block;
-  margin: 0 auto;
-}
-.card:hover {
-  transform: rotateY(180deg);
-}
-.card .side {
-  backface-visibility: hidden;
-  border-radius: 6px;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
-}
-.card .back {
-  background: #eaeaed;
-  color: #0087cc;
-  line-height: 150px;
-  text-align: center;
-  transform: rotateY(180deg);
 }
 
 input {
