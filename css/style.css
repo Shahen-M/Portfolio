@@ -91,6 +91,10 @@ h3 {
 }
 
 /* PROJECTS */
+a {
+  text-decoration: none !important;
+}
+
 .middle_project {
   opacity: 0;
 }
@@ -348,8 +352,6 @@ h5 {
   a {
     color: #fff;
   }
-
-
 }
 
 @media (min-width: 400px) {
