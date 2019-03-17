@@ -56,10 +56,17 @@ $(window).on('scroll', function() {
     animationMiddleProject();
   }
 
-  if ($(window).scrollTop() > 2400) {
-    animationContact();
+  if ($(window).scrollTop() > 2700) {
+    animationFirstGitProject();
   }
 
+  if ($(window).scrollTop() > 3100) {
+    animationSecondGitProject();
+  }
+
+  if ($(window).scrollTop() > 3600) {
+    animationContact();
+  }
 })
 
 function animationAboutMe() {
@@ -85,4 +92,14 @@ function animationMiddleProject() {
 function animationContact() {
   $('.contact, #contact_header').animate({'opacity': 1}, 1000);
   $('.contact, #contact_header').addClass('slideIn');
+}
+
+function animationFirstGitProject() {
+  $('.first_git').animate({'opacity': 1}, 1000);
+  $('.first_git').addClass('slideIn');
+}
+
+function animationSecondGitProject() {
+  $('.second_git').animate({'opacity': 1}, 1000);
+  $('.second_git').addClass('slideIn');
 }

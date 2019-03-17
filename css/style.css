@@ -162,10 +162,13 @@ h3 {
   border-style: double;
 }
 
+.first_git, .second_git {
+  opacity: 0;
+}
+
 .git_project {
   width: 75%;
-  margin: 0 auto !important;
-  padding-top: 50px;
+  margin: 40px auto !important;
 }
 
 .git_project p {
@@ -173,6 +176,7 @@ h3 {
   font-weight: bold;
   margin-top: 20px;
   cursor: default;
+  padding-bottom: 20px;
 }
 
 .git_project img {
@@ -215,6 +219,19 @@ h5 {
 }
 
 @media (min-width: 0px) {
+  .git_project img {
+    width: 70%;
+  }
+
+  .image-content {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .git_project {
+    display: block;
+  }
+
   .content {
     margin: 30px;
     border: 1px solid;
@@ -342,6 +359,10 @@ h5 {
 }
 
 @media (min-width: 440px) {
+  .image-content {
+    display: contents;
+  }
+
   h1, h2 {
     font-size: 35px;
   }
@@ -350,6 +371,10 @@ h5 {
 
 
 @media (min-width: 768px) {
+  .git_project img {
+    width: 55%;
+  }
+
   .content {
     margin: 0;
   }
@@ -390,6 +415,14 @@ h5 {
 }
 
 @media (min-width: 992px) {
+  .git_project img {
+    width: 270px;
+  }
+
+  .git_project {
+    display: flex;
+  }
+
   header {
     position: absolute;
     background-color: transparent;
@@ -414,6 +447,9 @@ h5 {
 }
 
 @media (min-width: 992px) {
+  .image-content {
+    display: block;
+  }
 
   .border_line {
     top: 68px;
