@@ -224,7 +224,13 @@ h5 {
 
 @media (min-width: 0px) {
   .git_project img {
-    width: 70%;
+    width: 275px;
+    max-width: 100%;
+  }
+
+  .git_project {
+    width: 373px;
+    max-width: 100%;
   }
 
   .image-content {
@@ -374,7 +380,7 @@ h5 {
 
 @media (min-width: 768px) {
   .git_project img {
-    width: 55%;
+    width: 75%;
   }
 
   .content {
@@ -449,6 +455,10 @@ h5 {
 }
 
 @media (min-width: 992px) {
+  .git_project {
+    width: 90%;
+  }
+
   .image-content {
     display: block;
   }
